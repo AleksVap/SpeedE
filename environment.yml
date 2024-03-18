@@ -1,0 +1,13 @@
+name: Env_SpeedE
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - pytorch=1.10.2
+  - cudatoolkit>=10
+  - pip
+  - pip:
+      - pykeen==1.7.0
+      - class_resolver==0.3.3
+      - tensorboard==2.8.0
